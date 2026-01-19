@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Antidel - Never Miss Deleted WhatsApp Messages | Get Instant Alerts</title>
+    <meta name="title" content="Antidel - Never Miss Deleted WhatsApp Messages | Get Instant Alerts" />
+    <meta name="description" content="Get instant notifications when someone deletes WhatsApp messages, photos, videos, or stories. Stay informed with Antidel - the smartest way to track deleted content across all your chats." />
+    <meta name="keywords" content="deleted whatsapp messages, whatsapp notification, see deleted messages, deleted stories, deleted media, whatsapp tracker, message alerts, antidel app, catch deleted messages, whatsapp monitoring" />
+    <meta name="author" content="Antidel" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://antidel.com/" />
+
+    <!-- Multi-Language Alternate Links -->
+    <link rel="alternate" hreflang="en" href="https://antidel.com/en" />
+    <link rel="alternate" hreflang="es" href="https://antidel.com/es" />
+    <link rel="alternate" hreflang="fr" href="https://antidel.com/fr" />
+    <link rel="alternate" hreflang="de" href="https://antidel.com/de" />
+    <link rel="alternate" hreflang="pt" href="https://antidel.com/pt" />
+    <link rel="alternate" hreflang="ar" href="https://antidel.com/ar" />
+    <link rel="alternate" hreflang="hi" href="https://antidel.com/hi" />
+    <link rel="alternate" hreflang="zh" href="https://antidel.com/zh" />
+    <link rel="alternate" hreflang="ja" href="https://antidel.com/ja" />
+    <link rel="alternate" hreflang="ru" href="https://antidel.com/ru" />
+    <link rel="alternate" hreflang="it" href="https://antidel.com/it" />
+    <link rel="alternate" hreflang="tr" href="https://antidel.com/tr" />
+    <link rel="alternate" hreflang="x-default" href="https://antidel.com/" />
+
+    <!-- Google Fonts - Optimized Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://antidel.com/" />
+    <meta property="og:site_name" content="Antidel" />
+    <meta property="og:title" content="Antidel - Get Instant Alerts for Deleted WhatsApp Messages" />
+    <meta property="og:description" content="Stay in the know! Get instant notifications when messages, photos, videos, or stories are deleted. Antidel keeps you informed across all your WhatsApp conversations." />
+    <meta property="og:image" content="https://antidel.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Antidel - WhatsApp Deletion Alerts" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="de_DE" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://antidel.com/" />
+    <meta name="twitter:title" content="Antidel - Never Miss Deleted WhatsApp Messages" />
+    <meta name="twitter:description" content="Get instant alerts when someone deletes messages, photos, or stories. Stay informed with Antidel." />
+    <meta name="twitter:image" content="https://antidel.com/twitter-image.jpg" />
+    <meta property="twitter:image:alt" content="Antidel - Deletion Alert System" />
+    <meta name="twitter:site" content="@antidelapp" />
+    <meta name="twitter:creator" content="@antidelapp" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0B0F1C" />
+    <meta name="msapplication-TileColor" content="#0B0F1C" />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Antidel",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": ["Android"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "18500"
+      },
+      "description": "Get instant notifications when someone deletes WhatsApp messages, photos, videos, or stories. Antidel monitors all your conversations and keeps you informed with smart alerts.",
+      "screenshot": "https://antidel.com/screenshot.jpg",
+      "image": "https://antidel.com/app-icon.png",
+      "downloadUrl": "https://antidel.com/download",
+      "author": {
+        "@type": "Organization",
+        "name": "Antidel"
+      },
+      "featureList": [
+        "Instant deletion notifications",
+        "Monitor all chat types (personal, groups, business)",
+        "Track deleted messages, photos, videos",
+        "View deleted status updates",
+        "Smart alert system",
+        "Works automatically in background"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Antidel",
+      "url": "https://antidel.com",
+      "logo": "https://antidel.com/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/antidelapp",
+        "https://twitter.com/antidelapp",
+        "https://www.instagram.com/antidelapp",
+        "https://www.youtube.com/antidelapp"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "support@antidel.com",
+        "availableLanguage": ["English", "Spanish", "French", "German", "Portuguese", "Arabic", "Hindi", "Chinese", "Japanese", "Russian", "Italian", "Turkish"]
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Antidel notify me about deleted messages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antidel uses an intelligent monitoring system to track your WhatsApp conversations. When someone deletes a message, photo, video, or story, you receive an instant push notification. You can then open Antidel to see exactly what was deleted, when, and by whom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Antidel work for all types of messages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Antidel works seamlessly across all WhatsApp message types including personal chats, group conversations, business messages, and even status updates. You'll receive alerts for deleted text messages, photos, videos, voice notes, documents, and stories."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I set up Antidel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Setup is quick and easy! Simply download Antidel, complete the simple setup process, and you're ready to go. Antidel will automatically start monitoring and will send you instant notifications whenever deletions occur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get notified immediately when something is deleted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! Antidel provides instant push notifications the moment a deletion is detected. You'll know in real-time what was deleted, from which chat, and can view the content immediately from the comfort of your device."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Antidel free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Antidel is free to download and use. We also offer premium features for users who want enhanced monitoring capabilities and advanced notification controls."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Antidel - WhatsApp Deletion Monitoring & Alerts",
+      "url": "https://antidel.com/",
+      "description": "Get instant notifications when messages, photos, videos, or stories are deleted on WhatsApp. Stay informed with Antidel's smart monitoring system.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Antidel"
+      },
+      "inLanguage": ["en", "es", "fr", "de", "pt", "ar", "hi", "zh", "ja", "ru", "it", "tr"],
+      "potentialAction": {
+        "@type": "DownloadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://antidel.com/download",
+          "actionPlatform": [
+            "http://schema.org/AndroidPlatform",
+            "http://schema.org/IOSPlatform"
+          ]
+        }
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Get Notified About Deleted WhatsApp Messages",
+      "description": "Learn how to use Antidel to receive instant notifications when messages, photos, or stories are deleted on WhatsApp",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Download Antidel",
+          "text": "Download and install Antidel from the officiel website antidel.com",
+          "position": 1
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Complete Easy Setup",
+          "text": "Follow the simple setup wizard to connect Antidel with your WhatsApp account",
+          "position": 2
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Enable Notifications",
+          "text": "Allow push notifications so Antidel can instantly alert you about deletions",
+          "position": 3
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Stay Informed",
+          "text": "Relax! Antidel monitors everything automatically and notifies you instantly when deletions occur",
+          "position": 4
+        }
+      ]
+    }
+    </script>
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/assets/index-BMJrPtU7.js" as="script" crossorigin />
+    <link rel="preload" href="/assets/index-CghCnxeB.css" as="style" />
+
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+    <script src="/visitors.js"></script>
+    <script type="module" crossorigin src="/assets/index-BMJrPtU7.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CghCnxeB.css">
+  </head>
+  <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to main content</a>
+
+    <div id="root"></div>
+
+    <!-- Noscript fallback -->
+    <noscript>
+      <div style="padding:20px;text-align:center;font-family:Arial,sans-serif;">
+        <h1>Antidel - Never Miss Deleted WhatsApp Messages</h1>
+        <p>JavaScript is required to use this application. Please enable JavaScript in your browser settings.</p>
+        <p>Get instant notifications when messages, photos, videos, or stories are deleted on WhatsApp.</p>
+      </div>
+    </noscript>
+  </body>
+</html>
