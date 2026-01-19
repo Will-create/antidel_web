@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 const Layout: React.FC = () => {
   return (
-    <div className="bg-deep-black min-h-screen">
+    <div className="bg-paper min-h-screen">
       <Header />
       <main>
         <Outlet />

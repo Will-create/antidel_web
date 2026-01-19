@@ -15,11 +15,11 @@ const Button: React.FC<ButtonProps> = ({
   variant = 'primary',
   size = 'md',
 }) => {
-  const baseClasses = 'font-orbitron transition-all duration-300 rounded-md relative';
+  const baseClasses = 'font-display font-semibold transition-all duration-300 rounded-full relative';
   
   const variants = {
-    primary: 'bg-whatsapp-green text-black font-medium shadow-glow-green hover:shadow-glow-green-lg',
-    secondary: 'bg-transparent border-2 border-whatsapp-green text-whatsapp-green hover:bg-whatsapp-green/10',
+    primary: 'bg-accent text-white shadow-glow hover:shadow-lift hover:brightness-95',
+    secondary: 'bg-transparent border border-accent/60 text-accent hover:border-accent hover:bg-accent/10',
   };
   
   const sizes = {
@@ -31,8 +31,8 @@ const Button: React.FC<ButtonProps> = ({
   // Glow effect elements
   const glowEffect = variant === 'primary' && (
     <>
-      <span className="absolute -inset-1 rounded-lg bg-gradient-to-r from-whatsapp-green/50 to-blue-glow/50 blur-md group-hover:blur-xl transition-all duration-500 opacity-70 group-hover:opacity-100"></span>
-      <span className="absolute -inset-1 rounded-lg bg-gradient-to-r from-whatsapp-green/50 to-blue-glow/50 blur-md group-hover:blur-xl animate-pulse transition-all duration-500"></span>
+      <span className="absolute -inset-1 rounded-full bg-gradient-to-r from-accent/40 to-accent/20 blur-md group-hover:blur-xl transition-all duration-500 opacity-60 group-hover:opacity-100"></span>
+      <span className="absolute -inset-1 rounded-full bg-gradient-to-r from-accent/40 to-accent/20 blur-md group-hover:blur-xl animate-pulse transition-all duration-500"></span>
     </>
   );
 

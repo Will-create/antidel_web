@@ -7,74 +7,70 @@ import {useTranslation} from 'react-i18next';
 const ReleaseNotes: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <section id="releases" className="py-20 bg-deep-black relative">
-      {/* Background elements */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
-      
+    <section id="releases" className="py-24 relative overflow-hidden">
+      <div className="absolute inset-0 bg-mesh opacity-60 pointer-events-none"></div>
+      <div className="absolute -top-24 left-8 h-40 w-40 rounded-3xl bg-accent/22 rotate-6 blur-[2px] pointer-events-none"></div>
+      <div className="absolute top-4 right-10 h-36 w-36 rounded-full bg-accent/26 blur-[2px] pointer-events-none"></div>
+      <div className="absolute -bottom-24 right-12 h-48 w-48 rounded-3xl bg-accent/18 -rotate-6 blur-[2px] pointer-events-none"></div>
+      <div className="absolute -bottom-32 left-1/5 h-52 w-52 rounded-full bg-accent/18 blur-[2px] pointer-events-none"></div>
       <div className="container mx-auto px-4">
         <ScrollReveal>
-          <h2 className="font-orbitron text-3xl md:text-4xl font-bold text-center mb-12 text-white">
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-center mb-12 text-ink">
             {t('updates.title')}
           </h2>
         </ScrollReveal>
-        
-        <div className="max-w-3xl mx-auto relative">
-          {/* Timeline line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-whatsapp-green/80 via-blue-glow/50 to-transparent"></div>
-          
-          {/* Release notes items */}
+
+        <div className="max-w-4xl mx-auto grid gap-6">
           {releaseNotes.map((release, index) => (
-            <ScrollReveal 
-              key={release.version} 
-              delay={index * 150}
-              className="mb-12 last:mb-0"
-            >
-              <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 md:pr-8 mb-4 md:mb-0 md:text-right">
-                  <h3 className="font-orbitron text-xl font-bold text-white">
-                    v{release.version}
-                  </h3>
-                  <p className="text-whatsapp-green/90">
-                  {t(release.date)}
-                  </p>
+            <ScrollReveal key={release.version} delay={index * 150}>
+              <GlassCard className="p-6">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                  <div>
+                    <h3 className="font-display text-2xl font-semibold text-ink">
+                      v{release.version}
+                    </h3>
+                    <p className="text-ink/60">{t(release.date)}</p>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-ink/60">
+                    <span className="inline-flex items-center gap-1 rounded-full bg-accent/10 border border-accent/20 px-3 py-1 text-accent">
+                      <CheckCircle2 size={14} className="text-accent" />
+                      {t('updates.newFeatures')}
+                    </span>
+                    <span className="inline-flex items-center gap-1 rounded-full bg-accent/10 border border-accent/20 px-3 py-1 text-accent">
+                      <AlertCircle size={14} className="text-accent" />
+                      {t('updates.fixes')}
+                    </span>
+                  </div>
                 </div>
-                
-                <div className="hidden md:block">
-                  <div className="w-5 h-5 rounded-full bg-whatsapp-green shadow-glow-green animate-pulse-slow"></div>
+
+                <div className="mt-5 grid md:grid-cols-2 gap-4 text-ink/70">
+                  {release.features.length > 0 && (
+                    <div>
+                      <h4 className="font-display font-semibold text-ink mb-2">
+                        {t('updates.newFeatures')}
+                      </h4>
+                      <ul className="list-disc list-inside space-y-1">
+                        {release.features.map((feature, i) => (
+                          <li key={i}>{t(feature)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {release.fixes.length > 0 && (
+                    <div>
+                      <h4 className="font-display font-semibold text-ink mb-2">
+                        {t('updates.fixes')}
+                      </h4>
+                      <ul className="list-disc list-inside space-y-1">
+                        {release.fixes.map((fix, i) => (
+                          <li key={i}>{t(fix)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
-                
-                <div className="md:w-1/2 md:pl-8">
-                  <GlassCard className="p-5 hover:shadow-glow-green-lg transition-all duration-500">
-                    {release.features.length > 0 && (
-                      <div className="mb-4">
-                        <h4 className="font-orbitron font-medium text-white mb-2 flex items-center">
-                          <CheckCircle2 size={16} className="text-whatsapp-green mr-2" />
-                          New Features
-                        </h4>
-                        <ul className="list-disc list-inside text-white/80 pl-5 space-y-1">
-                          {release.features.map((feature, i) => (
-                            <li key={i}>{t(feature)}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                    
-                    {release.fixes.length > 0 && (
-                      <div>
-                        <h4 className="font-orbitron font-medium text-white mb-2 flex items-center">
-                          <AlertCircle size={16} className="text-blue-glow mr-2" />
-                          Fixes & Improvements
-                        </h4>
-                        <ul className="list-disc list-inside text-white/80 pl-5 space-y-1">
-                          {release.fixes.map((fix, i) => (
-                            <li key={i}>{t(fix)}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </GlassCard>
-                </div>
-              </div>
+              </GlassCard>
             </ScrollReveal>
           ))}
         </div>

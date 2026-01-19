@@ -9,15 +9,15 @@ interface GlassCardProps {
 const GlassCard: React.FC<GlassCardProps> = ({
   children,
   className = '',
-  glowColor = 'green',
+  glowColor = 'none',
 }) => {
   const glowClasses = {
-    green: 'shadow-glow-green hover:shadow-glow-green-lg',
-    blue: 'shadow-glow-blue hover:shadow-glow-blue-lg',
-    none: '',
+    green: 'shadow-glow hover:shadow-lift',
+    blue: 'shadow-glow hover:shadow-lift',
+    none: 'shadow-soft hover:shadow-lift',
   };
   
-  const baseClasses = 'bg-dark-card backdrop-blur-md rounded-lg border border-white/10 transition-all duration-300';
+  const baseClasses = 'bg-card/90 backdrop-blur-sm rounded-2xl border border-line transition-all duration-300';
   
   return (
     <div className={`${baseClasses} ${glowClasses[glowColor]} ${className}`}>

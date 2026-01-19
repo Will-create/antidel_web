@@ -33,14 +33,14 @@ const Header: React.FC = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-deep-black/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-paper/85 backdrop-blur-lg shadow-soft border-b border-line' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <a href="#" className="font-orbitron font-bold text-2xl text-white">
-            <span className="text-gradient bg-gradient-to-r from-whatsapp-green to-whatsapp-green/70">Antidel</span>
+          <a href="#" className="font-display font-bold text-2xl text-ink">
+            <span className="text-gradient">Antidel</span>
           </a>
           
           {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
               <a
                 key={index}
                 href={link.href}
-                className="text-white/80 hover:text-whatsapp-green transition-colors duration-300 font-medium"
+                className="text-ink/70 hover:text-accent transition-colors duration-300 font-medium"
               >
                 {link.title}
               </a>
@@ -67,7 +67,7 @@ const Header: React.FC = () => {
             <LanguageSelector />
             <button
               onClick={toggleMobileMenu}
-              className="text-white p-2"
+              className="text-ink p-2"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
       
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute w-full bg-deep-black/95 backdrop-blur-lg transition-all duration-300 ${
+        className={`md:hidden absolute w-full bg-paper/95 backdrop-blur-lg transition-all duration-300 border-b border-line ${
           isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
         }`}
       >
@@ -87,7 +87,7 @@ const Header: React.FC = () => {
               <a
                 key={index}
                 href={link.href}
-                className="text-white/80 hover:text-whatsapp-green transition-colors duration-300 py-2 font-medium"
+                className="text-ink/70 hover:text-accent transition-colors duration-300 py-2 font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.title}

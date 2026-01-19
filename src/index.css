@@ -2,16 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: dark;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  @apply bg-deep-black text-light-text font-inter;
+  @apply bg-paper text-ink font-sans;
+  background-image: radial-gradient(120% 120% at 0% 0%, rgba(37, 211, 102, 0.16) 0%, transparent 55%),
+    radial-gradient(120% 120% at 100% 0%, rgba(37, 211, 102, 0.12) 0%, transparent 55%),
+    radial-gradient(120% 120% at 50% 100%, rgba(37, 211, 102, 0.1) 0%, transparent 60%);
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
@@ -23,14 +22,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-deep-black;
+  @apply bg-paper;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-whatsapp-green/50 rounded-full hover:bg-whatsapp-green/70 transition-colors duration-300;
+  @apply bg-ink/20 rounded-full hover:bg-ink/40 transition-colors duration-300;
 }
 
 /* Text gradient */
 .text-gradient {
-  @apply bg-clip-text text-transparent;
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-ink to-accent;
 }

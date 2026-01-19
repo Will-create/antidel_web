@@ -10,7 +10,7 @@ import Header from './components/Layout/Header';
 const App: React.FC = () => {
   return (
     <Router basename='/'>
-      <div className="bg-deep-black min-h-screen">
+      <div className="bg-paper min-h-screen">
         <Header />
         <Routes>
             <Route index element={<Home />} />
